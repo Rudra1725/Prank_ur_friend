@@ -2,7 +2,7 @@ import webbrowser as wb
 import time
 import random
 import pyautogui as pg 
-
+pg.FAILSAFE = False
 time.sleep(2)
 
 while True:
